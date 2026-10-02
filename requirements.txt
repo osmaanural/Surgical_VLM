@@ -1,0 +1,5 @@
+torch==2.9.0
+transformers==5.17.0
+peft==0.20.0
+Pillow==12.3.0
+torchvision==0.24.0

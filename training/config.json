@@ -1,0 +1,12 @@
+{
+  "epochs": 3,
+  "epoch_samples": 6000,
+  "learning_rate": 5e-05,
+  "connector_learning_rate": 1e-05,
+  "lora_rank": 8,
+  "gradient_accumulation": 4,
+  "validation_per_video": 20,
+  "patience": 2,
+  "seed": 42,
+  "base_model": "HuggingFaceTB/SmolVLM-500M-Instruct"
+}

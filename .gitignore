@@ -1,0 +1,39 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+.cache/
+# Kullanıcının görüntüleri ve üretilen sonuçlar paylaşılmaz.
+/test/*
+!/test/.gitkeep
+!/test/README.md
+/results/*
+!/results/.gitkeep
+# Eğitim verileri ve deney çıktıları bu kullanım projesine ait değildir.
+/datasets/
+/runs/
+/evaluation/
+/prepared*/
+# model/ ağırlıkları özellikle hariç tutulmaz: proje bunlarla çalışır.
+
+/training_runs/
+
+# Veri seti yanlışlıkla proje köküne çıkarılırsa da Git dışında tut.
+/data/
+/dataset/
+/CholecT50/
+/cholect50/
+/videos/
+/labels/
+# İndirilen veri arşivleri
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
